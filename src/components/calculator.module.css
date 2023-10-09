@@ -1,0 +1,118 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: white;
+}
+
+.title {
+  font-size: 22px;
+  text-align: left;
+}
+
+.display {
+  background: #171f32;
+  height: 50px;
+  width: 330px;
+  margin-bottom: 20px;
+  text-align: right;
+  padding: 10px;
+  font-size: 32px;
+  border-radius: 5px;
+}
+
+.keyboard {
+  background: #171f32;
+  height: 280px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.digits {
+  width: 280px;
+}
+
+.digit_btn {
+  background: #e8e4dd;
+  height: 35px;
+  width: 65px;
+  padding: 0px;
+  font-size: 22px;
+  box-shadow: 0 2px #b3a298;
+  margin: 10px;
+}
+
+.functions {
+  width: 100px;
+  margin-left: -25px;
+}
+
+.func_btn {
+  background: #e8e4dd;
+  height: 35px;
+  width: 65px;
+  padding: 0px;
+  font-size: 22px;
+  box-shadow: 0 2px #b3a298;
+  margin: 10px;
+}
+
+.pointers {
+  width: 280px;
+  height: 50px;
+}
+
+.pointer_btn {
+  background: #e8e4dd;
+  height: 35px;
+  width: 65px;
+  padding: 0px;
+  font-size: 22px;
+  box-shadow: 0 2px #b3a298;
+  margin: 10px;
+}
+
+.mainKeyboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 220px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 22px;
+  height: 50px;
+}
+
+.delete_btn {
+  background: #657199;
+  color: white;
+  box-shadow: 0 2px #434e74;
+}
+
+.reset_btn {
+  background: #657199;
+  color: white;
+  width: 150px;
+  height: 35px;
+  box-shadow: 0 2px #434e74;
+}
+
+.equals_btn {
+  background: #d14031;
+  color: white;
+  height: 35px;
+  margin-left: 20px;
+  width: 145px;
+  box-shadow: 0 2px #93261a;
+  outline: none;
+}
+
+.equals_btn:focus {
+  background: #af5c53;
+}
