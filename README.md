@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-- Calculator: ![Rating page](./screenshots/calculator-app.png)
+- Calculator: ![Calculator](./public/calculator-app.png)
 
 ### Links
 
